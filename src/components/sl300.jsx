@@ -1,4 +1,5 @@
 import React from "react";
+import image from "./assets/images/Photos/baptiste-merel-lOUlhSKontk-unsplash(1)-2.jpg";
 
 const sl300 = () => {
   return (
@@ -35,7 +36,7 @@ const sl300 = () => {
         </p>
       </div>
       <div className="col-span-3 lg:pr-10 pr-20 lg:pl-0 pl-20">
-        <img src="src/assets/images/Photos/baptiste-merel-lOUlhSKontk-unsplash(1)-2.jpg" />
+        <img src={image} />
       </div>
     </div>
   );

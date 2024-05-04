@@ -1,4 +1,6 @@
 import React from "react";
+import image1 from "./assets/images/Photos/nick-russill-mX8Xe7UV41k-unsplash.jpg";
+import image2 from "./assets/images/Photos/ulf-meyer-ycxOJpTj1qQ-unsplash(1)-3.jpg";
 
 const db5 = () => {
   return (
@@ -23,13 +25,10 @@ const db5 = () => {
           that 25 models were made in 2020, containing many of the gadgets
           featured in the James Bond film Golfinger.
         </p>
-        <img
-          className="pt-20 lg:pr-10 pr-20"
-          src="src/assets/images/Photos/nick-russill-mX8Xe7UV41k-unsplash.jpg"
-        />
+        <img className="pt-20 lg:pr-10 pr-20" src={image1} />
       </div>
       <div className="col-span-3 pr-20 lg:pr-12 pl-20 lg:pl-0">
-        <img src="src/assets/images/Photos/ulf-meyer-ycxOJpTj1qQ-unsplash(1)-3.jpg" />
+        <img src={image2} />
       </div>
     </div>
   );

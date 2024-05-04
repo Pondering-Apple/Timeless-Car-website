@@ -1,4 +1,7 @@
 import React from "react";
+import image1 from "./assets/images/Photos/mclarenF1_image1-3 copy.png";
+import image2 from "./assets/images/Photos/mclarenF1_image3.jpg";
+import image3 from "./assets/images/Photos/mclarenf1_Image_1.jpg";
 
 const mclarenf1 = () => {
   return (
@@ -6,19 +9,15 @@ const mclarenf1 = () => {
       <div className="col-span-4 grid grid-cols-2 lg:pl-10 pl-20  lg:pr-0 pr-20">
         <img
           className="col-span-1 lg:pt-10"
-          src="src/assets/images/Photos/mclarenF1_image1-3 copy.png"
+          src={image1}
           alt="McLaren F1 Image 1"
         />
         <img
           className="col-span-1 lg:pt-10"
-          src="src/assets/images/Photos/mclarenF1_image3.jpg"
+          src={image2}
           alt="McLaren F1 Image 3"
         />
-        <img
-          className="col-span-2"
-          src="src/assets/images/Photos/mclarenf1_Image_1.jpg"
-          alt="McLaren F1 Image 2"
-        />
+        <img className="col-span-2" src={image3} alt="McLaren F1 Image 2" />
       </div>
       <div id="mclarenf1" className="col-span-3 pl-20 w-3/4">
         <p>

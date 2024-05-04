@@ -1,17 +1,13 @@
 import React from "react";
+import image1 from "./assets/images/Photos/wes-tindel-wBIOHTpy6gg-unsplash.jpg";
+import image2 from "./assets/images/Photos/martin-zdrazil-zlHLVpNEuWA-unsplash.jpg";
 
 const Turbo911 = () => {
   return (
     <div className="bg-colordark text-colorlight md:text-lg lg:grid lg:grid-cols-7 pt-20 pb-20">
       <div className="col-span-4 grid grid-cols-2 lg:pl-10 pl-20  lg:pr-0 pr-20">
-        <img
-          className="col-span-1"
-          src="src/assets/images/Photos/wes-tindel-wBIOHTpy6gg-unsplash.jpg"
-        />
-        <img
-          className="col-span-1"
-          src="src/assets/images/Photos/martin-zdrazil-zlHLVpNEuWA-unsplash.jpg"
-        />
+        <img className="col-span-1" src={image1} />
+        <img className="col-span-1" src={image2} />
       </div>
       <div id="911" className="col-span-3 pl-20 w-3/4">
         <p>

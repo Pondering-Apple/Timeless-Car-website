@@ -1,14 +1,13 @@
 import React from "react";
+import image1 from "./assets/images/Photos/hoyoun-lee-3UuEwmmngSo-unsplash.jpg";
+import image2 from "./assets/images/Photos/drew-stock-y_3Xvp9XwIE-unsplash(1).jpg";
 
 const Countach = () => {
   return (
     <div className="md:text-lg lg:grid lg:grid-cols-6 pt-20 pb-20 bg-colordark text-colorlight">
       <div className="pl-20  lg:pr-0 pr-20 col-span-3">
-        <img
-          className="pb-5"
-          src="src/assets/images/Photos/hoyoun-lee-3UuEwmmngSo-unsplash.jpg"
-        />
-        <img src="src/assets/images/Photos/drew-stock-y_3Xvp9XwIE-unsplash(1).jpg" />
+        <img className="pb-5" src={image1} />
+        <img src={image2} />
       </div>
       <div id="countach" className="col-span-3 pl-20 w-3/4">
         <h1>

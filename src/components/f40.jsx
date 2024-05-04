@@ -1,4 +1,7 @@
 import React from "react";
+import image1 from "./assets/images/Photos/richard-fullbrook-K5slmsd5HiQ-unsplash(1).jpg";
+import image2 from "./assets/images/Photos/kajetan-daroch-evnlVYsKp3E-unsplash.jpg";
+import image3 from "./assets/images/Photos/edoardo-giudici-saraval-LGgpqhSUMyc-unsplash.jpg";
 
 const F40 = () => {
   return (
@@ -27,14 +30,11 @@ const F40 = () => {
           average production numbers, the F40 has become one of the most saught
           after Ferrari's of all time.
         </p>
-        <img
-          src="src/assets/images/Photos/richard-fullbrook-K5slmsd5HiQ-unsplash(1).jpg"
-          className="lg:pl-20 lg:pr-10 pr-20 pt-10"
-        />
+        <img src={image1} className="lg:pl-20 lg:pr-10 pr-20 pt-10" />
       </div>
       <div className="col-span-4 lg:pr-10 pr-20  lg:pl-0 pl-20 grid grid-cols-2 h-auto">
-        <img src="src/assets/images/Photos/kajetan-daroch-evnlVYsKp3E-unsplash.jpg" />
-        <img src="src/assets/images/Photos/edoardo-giudici-saraval-LGgpqhSUMyc-unsplash.jpg" />
+        <img src={image2} />
+        <img src={image3} />
       </div>
     </div>
   );
