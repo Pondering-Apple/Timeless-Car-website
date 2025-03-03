@@ -9,32 +9,32 @@ import SL300 from "./components/sl300";
 import Turbo911 from "./components/turbo911";
 
 const App = () => {
-  const [scrollPosition, setScrollPosition] = useState(0);
+	const [scrollPosition, setScrollPosition] = useState(0);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const position = window.scrollY;
-      setScrollPosition(position);
-    };
+	useEffect(() => {
+		const handleScroll = () => {
+			const position = window.scrollY;
+			setScrollPosition(position);
+		};
 
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+		window.addEventListener("scroll", handleScroll);
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
+	}, []);
 
-  return (
-    <div>
-      <Header scrollPosition={scrollPosition} />
-      <Hero />
-      <Ferrari />
-      <Countach />
-      <Aston />
-      <Turbo911 />
-      <SL300 />
-      <Mclaren />
-    </div>
-  );
+	return (
+		<div>
+			<Header scrollPosition={scrollPosition} />
+			<Hero />
+			<Ferrari />
+			<Countach />
+			<Aston />
+			<Turbo911 />
+			<SL300 />
+			<Mclaren />
+		</div>
+	);
 };
 
 export default App;
